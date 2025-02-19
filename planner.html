@@ -1,0 +1,96 @@
+<div data-layer="Planner" class="Planner" style="width: 1440px; height: 1024px; position: relative; background: white">
+
+    <div data-layer="Attendance" class="Attendance" id="attendanceBtn"
+        style="width: 135.30px; height: 34.12px; left: 416.15px; top: 135.27px; position: absolute; color: black; font-size: 24px; font-family: Roboto; font-weight: 400; line-height: 27.50px; word-wrap: break-word">
+
+        Attendance
+    </div>
+    <div data-layer="Grades" class="Grades" id="gradesBtn"
+        style="width: 80.97px; height: 34.12px; left: 599.62px; top: 135.27px; position: absolute; color: black; font-size: 24px; font-family: Roboto; font-weight: 400; line-height: 27.50px; word-wrap: break-word">
+        Grades
+    </div>
+    <div data-layer="Tasks" class="Tasks" id="tasksBtn"
+        style="width: 77.90px; height: 34.12px; left: 729.80px; top: 135.27px; position: absolute; color: black; font-size: 24px; font-family: Roboto; font-weight: 400; line-height: 27.50px; word-wrap: break-word">
+        Tasks
+    </div>
+    <div data-layer="Planner" class="TimeTable" id="timeTableBtn"
+        style="width: 128.12px; height: 34.12px; left: 855.88px; top: 135.27px; position: absolute; color: black; font-size: 24px; font-family: Roboto; font-weight: 400; line-height: 27.50px; word-wrap: break-word">
+        Planner
+    </div>
+    <div data-layer="Pop ups!" class="PopUps" id="popUpsBtn"
+        style="width: 152.73px; height: 37.78px; left: 1033.20px; top: 135.27px; position: absolute; color: black; font-size: 24px; font-family: Roboto; font-weight: 400; line-height: 27.50px; word-wrap: break-word">
+        Pop ups!
+    </div>
+
+    <div id="signout-button"
+        style="width: 143.50px; height: 73.84px; left: 1214px; top: 95px; position: absolute; cursor: pointer;">
+        <div
+            style="width: 143.50px; height: 73.84px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 10px; border: 1px #E5A5A6 solid;">
+        </div>
+        <div
+            style="width: 103.60px; height: 36.35px; left: 25.20px; top: 20.20px; position: absolute; color: #E5A5A6; font-size: 24px; font-family: Lato; font-weight: 700; word-wrap: break-word;">
+            Sign Out
+        </div>
+    </div>
+    </button>
+    <div data-layer="Rectangle 32" class="Rectangle32"
+        style="width: 396px; height: 1024px; left: -49px; top: 0px; position: absolute; background: rgba(217, 217, 217, 0.30)">
+    </div>
+    <div data-layer="Week Overview" class="WeekOverview" id="weekOverviewBtn"
+        style="width: 186px; height: 35px; left: 102px; top: 340px; position: absolute; color: black; font-size: 24px; font-family: Roboto; font-weight: 400; line-height: 27.50px; word-wrap: break-word; cursor: pointer;">
+        Week Overview
+    </div>
+    
+    <div data-layer="Hourly Slots" class="HourlySlots" id="hourlySlotsBtn"
+        style="width: 157px; height: 35px; left: 106px; top: 427px; position: absolute; color: black; font-size: 24px; font-family: Roboto; font-weight: 400; line-height: 27.50px; word-wrap: break-word; cursor: pointer;">
+        Hourly Slots
+    </div>
+    
+    <script>
+        // Debugging the click events with console.log
+        document.querySelector("#weekOverviewBtn").onclick = function () {
+            console.log("Week Overview button clicked");  // Debug log
+            window.location.href = "planner.html"; // Redirect to planner.html
+        };
+
+        document.querySelector("#hourlySlotsBtn").onclick = function () {
+            console.log("Hourly Slots button clicked");  // Debug log
+            window.location.href = "planner2.html"; // Redirect to planner2.html
+        };
+    </script>
+    <div data-layer="Acedemic  Avengers" class="AcedemicAvengers"
+        style="width: 305.45px; height: 114.55px; left: 42px; top: 96px; position: absolute; color: black; font-size: 64px; font-family: Sedan SC; font-weight: 400; line-height: 27.50px; word-wrap: break-word">
+        Acedemic Avengers</div>
+    <img data-layer="image 13" class="Image13"
+        style="width: 1035px; height: 533px; left: 388px; top: 268px; position: absolute"
+        src="file:///C:/Users/tsrsr/Pictures/Screenshots/Screenshot%202025-01-02%20032303.png" />
+    
+    </div>
+    <script>
+        document.querySelector(".AcedemicAvengers").onclick = function () {
+            window.location.href = "acedemic_avengers.html";  // Redirect to "acedemic_avengers.html"
+        };
+        document.querySelector(".Attendance").onclick = function () {
+            window.location.href = "attendance.html";
+        };
+
+        document.querySelector(".Grades").onclick = function () {
+            window.location.href = "grades.html";
+        };
+
+        document.querySelector(".Tasks").onclick = function () {
+            window.location.href = "tasks.html";
+        };
+
+        document.querySelector("#timeTableBtn").onclick = function () {
+            window.location.href = "planner.html";
+        };
+
+        document.querySelector(".PopUps").onclick = function () {
+            window.location.href = "popups.html";
+        };
+
+        document.querySelector("#signout-button").onclick = function () {
+            window.location.href = "index.html"; // Replace with your desired page for sign out
+        };
+    </script>
